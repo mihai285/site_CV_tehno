@@ -40,7 +40,7 @@ section {
 
 .galerie img {
   width: 100%; /* Ocupă întreaga lățime a containerului */
-  max-width: 80%; /* Limitează lățimea imaginii pe ecrane mici */
+  max-width: 500px; /* Dimensiune mai mare pentru PC */
   height: auto;
   object-fit: contain; /* Păstrează proporțiile imaginii */
   border-radius: 6px;
@@ -60,7 +60,6 @@ a {
 /* Media Query pentru ecrane mari (PC) */
 @media (min-width: 768px) {
   .galerie img {
-    max-width: 400px; /* Limitează imaginea pe ecrane mari la 400px */
-    max-height: 300px; /* Limitează înălțimea pe PC */
+    max-width: 60%; /* Pe PC, imaginea va ocupa 60% din lățimea containerului */
   }
 }
