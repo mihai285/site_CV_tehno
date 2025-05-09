@@ -56,7 +56,7 @@ h2 {
 .galerie img {
   width: 50%;
   max-width: 450px;
-  height: 100px;
+  height: 1000px;
   border-radius: 8px;
   margin-bottom: 15px;
   transition: transform 0.2s ease-in-out; /* Adaugă tranziție pentru un efect mai plăcut */
