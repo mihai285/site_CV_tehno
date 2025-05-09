@@ -54,9 +54,9 @@ h2 {
 }
 
 .galerie img {
-  width: 100%;
-  height: auto;
-  max-width: 450px; /* Dimensiune maximă pentru imagini pe laptopuri */
+  width: 100%; /* Asigură-te că imaginea nu depășește lățimea containerului */
+  max-width: 450px; /* Limităm lățimea imaginii la maxim 450px */
+  height: auto; /* Menține proporțiile imaginii */
   border-radius: 8px;
   margin-bottom: 15px;
 }
