@@ -40,8 +40,8 @@ section {
 
 .galerie img {
   width: 100%; /* Ocupă întreaga lățime a containerului */
-  max-width: 400px; /* Limitează lățimea la 400px */
-  max-height: 300px; /* Limitează înălțimea la 300px */
+  max-width: 80%; /* Limitează lățimea imaginii pe ecrane mici */
+  height: auto;
   object-fit: contain; /* Păstrează proporțiile imaginii */
   border-radius: 6px;
 }
@@ -55,4 +55,12 @@ section {
 a {
   color: #0077cc;
   text-decoration: none;
+}
+
+/* Media Query pentru ecrane mari (PC) */
+@media (min-width: 768px) {
+  .galerie img {
+    max-width: 400px; /* Limitează imaginea pe ecrane mari la 400px */
+    max-height: 300px; /* Limitează înălțimea pe PC */
+  }
 }
