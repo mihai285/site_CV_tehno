@@ -60,6 +60,6 @@ a {
 /* Media Query pentru ecrane mari (PC) */
 @media (min-width: 768px) {
   .galerie img {
-    max-width: 60%; /* Pe PC, imaginea va ocupa 60% din lățimea containerului */
+    max-width: 90%; /* Pe PC, imaginea va ocupa 60% din lățimea containerului */
   }
 }
