@@ -54,12 +54,18 @@ h2 {
 }
 
 .galerie img {
-  width: 100%; /* Asigură-te că imaginea nu depășește lățimea containerului */
-  max-width: 450px; /* Limităm lățimea imaginii la maxim 450px */
-  height: auto; /* Menține proporțiile imaginii */
+  width: 100%;
+  max-width: 450px;
+  height: auto;
   border-radius: 8px;
   margin-bottom: 15px;
+  transition: transform 0.2s ease-in-out; /* Adaugă tranziție pentru un efect mai plăcut */
 }
+
+.galerie img:hover {
+  transform: scale(1.5); /* Scalează imaginea la 1.5 ori dimensiunea sa normală la hover */
+}
+
 
 .descriere {
   font-size: 1em;
