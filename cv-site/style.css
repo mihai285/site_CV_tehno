@@ -31,7 +31,7 @@ section {
 }
 
 .proiect {
-  flex: 1 1 auto; /* Permite ca imaginea să aibă dimensiunea corectă */
+  flex: 1 1 auto;
   background: #eee;
   padding: 10px;
   border-radius: 6px;
@@ -39,8 +39,10 @@ section {
 }
 
 .galerie img {
-  max-width: 80%; /* Ajustează dimensiunea imaginii pentru a fi mai mică */
-  height: auto;
+  width: 100%; /* Ocupă întreaga lățime a containerului */
+  max-width: 400px; /* Limitează lățimea la 400px */
+  max-height: 300px; /* Limitează înălțimea la 300px */
+  object-fit: contain; /* Păstrează proporțiile imaginii */
   border-radius: 6px;
 }
 
@@ -48,4 +50,9 @@ section {
   margin-top: 10px;
   font-size: 16px;
   color: #333;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
 }
