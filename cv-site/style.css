@@ -62,7 +62,7 @@ h2 {
 }
 
 .galerie img:hover {
-  transform: scale(1.2); /* Scalează imaginea la 1.5 ori dimensiunea sa normală la hover */
+  transform: scale(1.05); /* Scalează imaginea la 1.5 ori dimensiunea sa normală la hover */
 }
 
 
