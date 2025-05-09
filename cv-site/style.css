@@ -54,7 +54,7 @@ h2 {
 }
 
 .galerie img {
-  width: 50%;
+  width: 100%;
   max-width: 450px;
   height: 1000px;
   border-radius: 8px;
