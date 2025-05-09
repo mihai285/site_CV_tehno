@@ -54,7 +54,7 @@ h2 {
 }
 
 .galerie img {
-  width: 70%;
+  width: 50%;
   max-width: 450px;
   height: auto;
   border-radius: 8px;
@@ -63,7 +63,7 @@ h2 {
 }
 
 .galerie img:hover {
-  transform: scale(1.5); /* Scalează imaginea la 1.5 ori dimensiunea sa normală la hover */
+  transform: scale(1.2); /* Scalează imaginea la 1.5 ori dimensiunea sa normală la hover */
 }
 
 
